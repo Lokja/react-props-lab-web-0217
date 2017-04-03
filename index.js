@@ -3,8 +3,12 @@ const ReactDOM = require('react-dom');
 
 const Spaceship = require('./components/Spaceship');
 
+const mFcolors = ['grey', 'dirty', 'rust']
+
 ReactDOM.render(
-  <Spaceship name="Millennium Falcon" />,
+  <Spaceship
+    name="Millennium Falcon"
+  />,
   document.getElementById('main')
 );
 
